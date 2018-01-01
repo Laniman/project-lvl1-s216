@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
+import welcome from '../welcome';
 import hello from '..';
 
-console.log('Welcome to the Brain Games!\n');
-
+welcome();
+console.log();
 hello();
