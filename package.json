@@ -1,0 +1,37 @@
+{
+  "name": "brain-games-s216",
+  "version": "0.0.1",
+  "description": "hexlet project brain games s216",
+  "main": "dist/index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laniman/project-lvl1-s216.git"
+  },
+  "keywords": [
+    "hexlet"
+  ],
+  "author": "George Achkasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laniman/project-lvl1-s216/issues"
+  },
+  "homepage": "https://github.com/Laniman/project-lvl1-s216#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*"
+  }
+}
