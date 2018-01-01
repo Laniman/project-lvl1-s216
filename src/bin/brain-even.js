@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-import welcome from '../welcome';
-import game from '../brain-even';
+import { brainEven } from '../games';
+import { run } from '..';
 
-welcome();
-game();
+run(brainEven);

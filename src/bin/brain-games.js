@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-import welcome from '../welcome';
-import hello from '..';
+import { brainGames } from '../games';
+import { run } from '..';
 
-welcome();
-console.log();
-hello();
+run(brainGames);
