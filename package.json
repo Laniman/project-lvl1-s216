@@ -1,6 +1,6 @@
 {
   "name": "brain-games-s216",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "hexlet project brain games s216",
   "main": "dist/index.js",
   "bin": {
