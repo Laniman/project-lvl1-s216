@@ -2,6 +2,7 @@ import gameBrainGames from './brain-games';
 import gameBrainEven from './brain-even';
 import gameBrainCalc from './brain-calc';
 import gameBrainGcd from './brain-gcd';
+import gameBrainBalance from './brain-balance';
 import { run as gameEngine } from '..';
 
 export const getDescription = game => game.description;
@@ -15,3 +16,4 @@ export const brainGames = () => withEngine(gameBrainGames);
 export const brainEven = () => withEngine(gameBrainEven);
 export const brainCalc = () => withEngine(gameBrainCalc);
 export const brainGcd = () => withEngine(gameBrainGcd);
+export const brainBalance = () => withEngine(gameBrainBalance);
