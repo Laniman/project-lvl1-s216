@@ -1,9 +1,9 @@
-import _ from 'lodash';
+import { generateInt } from '../utils';
 
 const isEven = number => number % 2 === 0;
 
 const generate = () => {
-  const question = _.random(-100, 100);
+  const question = generateInt();
   const correct = isEven(question) ? 'yes' : 'no';
   return { question, correct };
 };

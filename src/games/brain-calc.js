@@ -1,17 +1,9 @@
-import _ from 'lodash';
+import { generatePositiveInt, generateSign } from '../utils';
 
 const sign = {
   '+': (a, b) => a + b,
   '-': (a, b) => a - b,
   '*': (a, b) => a * b,
-};
-
-const generatePositiveInt = () => _.random(0, 100);
-
-const generateSign = (signObj) => {
-  const signs = Object.keys(signObj);
-  const index = _.random(0, signs.length - 1);
-  return signs[index];
 };
 
 const generate = () => {
