@@ -1,4 +1,5 @@
 import { generatePositiveInt } from '../utils';
+import { run } from '..';
 
 const gcd = (a, b) => {
   if (!b) {
@@ -19,7 +20,9 @@ const generate = () => {
   return { question, correct };
 };
 
-export default {
+const game = {
   generate,
   description: 'Find the greatest common divisor of given numbers.\n',
 };
+
+export default () => run(game);

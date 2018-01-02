@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { brainBalance } from '../games';
+import start from '../games/brain-balance';
 
-brainBalance();
+start();

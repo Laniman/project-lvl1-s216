@@ -1,3 +1,5 @@
+import { run } from '..';
+
 const generate = () => {
   const question = 1;
   const correct = String(1);
@@ -5,7 +7,9 @@ const generate = () => {
   return { question, correct };
 };
 
-export default {
+const game = {
   generate,
   description: 'Balance the given number.\n',
 };
+
+export default () => run(game);

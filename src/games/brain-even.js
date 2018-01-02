@@ -1,4 +1,5 @@
 import { generateInt } from '../utils';
+import { run } from '..';
 
 const isEven = number => number % 2 === 0;
 
@@ -8,7 +9,9 @@ const generate = () => {
   return { question, correct };
 };
 
-export default {
+const game = {
   generate,
   description: 'Answer "yes" if number even otherwise answer "no".\n',
 };
+
+export default () => run(game);

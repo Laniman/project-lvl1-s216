@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import { isGame, getDescription, getGenerator } from './games';
 
 const CORRECT_ANSWER_NUMBER = 3;
 const CORRECT_ANSWER_MESSAGE = 'Correct!';
@@ -9,8 +8,11 @@ const makeQuestionMessage = question => `Question: ${question}`;
 const makeTryAgainMessage = name => `Let's try again, ${name}!`;
 const makeSuccessGameMessage = name => `Congratulations, ${name}!`;
 const makeWrongMessage = (wrong, correct) => `'${wrong}' is wrong answer ;(. Correct answer was '${correct}'.`;
-export const print = console.log;
-export const welcome = () => print('Welcome to the Brain Games!');
+const print = console.log;
+const welcome = () => print('Welcome to the Brain Games!');
+const getDescription = game => game.description;
+const getGenerator = game => game.generate;
+const isGame = game => game.generate && typeof game.generate === 'function';
 
 export const greet = () => {
   const userName = readlineSync.question('May I have your name? ');

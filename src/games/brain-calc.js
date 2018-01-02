@@ -1,4 +1,5 @@
 import { generatePositiveInt, generateSign } from '../utils';
+import { run } from '..';
 
 const sign = {
   '+': (a, b) => a + b,
@@ -18,7 +19,9 @@ const generate = () => {
   return { question, correct };
 };
 
-export default {
+const game = {
   generate,
   description: 'What is the result of the expression?\n',
 };
+
+export default () => run(game);
