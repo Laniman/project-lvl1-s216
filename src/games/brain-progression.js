@@ -36,7 +36,7 @@ const generate = () => {
 
 const game = {
   generate,
-  description: 'What number is missing in this progression?\n',
+  description: 'What number is missing in this progression?',
 };
 
 export default () => run(game);

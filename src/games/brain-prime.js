@@ -25,7 +25,7 @@ const generate = () => {
 
 const game = {
   generate,
-  description: 'Is this number prime?\n',
+  description: 'Is this number prime?',
 };
 
 export default () => run(game);

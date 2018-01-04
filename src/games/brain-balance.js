@@ -39,7 +39,7 @@ const generate = () => {
 
 const game = {
   generate,
-  description: 'Balance the given number.\n',
+  description: 'Balance the given number.',
 };
 
 export default () => run(game);

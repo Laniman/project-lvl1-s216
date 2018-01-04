@@ -22,7 +22,7 @@ const generate = () => {
 
 const game = {
   generate,
-  description: 'Find the greatest common divisor of given numbers.\n',
+  description: 'Find the greatest common divisor of given numbers.',
 };
 
 export default () => run(game);

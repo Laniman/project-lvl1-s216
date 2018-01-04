@@ -11,7 +11,7 @@ const generate = () => {
 
 const game = {
   generate,
-  description: 'Answer "yes" if number even otherwise answer "no".\n',
+  description: 'Answer "yes" if number even otherwise answer "no".',
 };
 
 export default () => run(game);

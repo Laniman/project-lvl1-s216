@@ -21,7 +21,7 @@ const generate = () => {
 
 const game = {
   generate,
-  description: 'What is the result of the expression?\n',
+  description: 'What is the result of the expression?',
 };
 
 export default () => run(game);

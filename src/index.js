@@ -4,7 +4,7 @@ import _ from 'lodash';
 const correctAnswerNumber = 3;
 const correctAnswerMessage = 'Correct!';
 const answerMessage = 'Your answer: ';
-const defaultDescriptionMessage = 'No description\n';
+const defaultDescriptionMessage = 'No description';
 
 const makeQuestionMessage = question => `Question: ${question}`;
 const makeTryAgainMessage = name => `Let's try again, ${name}!`;
@@ -28,7 +28,7 @@ export const run = (game) => {
     return;
   }
 
-  print(description);
+  print(description, '\n');
   const name = greet();
 
   const inner = (count) => {
