@@ -36,17 +36,17 @@
   },
   "homepage": "https://github.com/Laniman/project-lvl1-s216#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "*",
-    "babel-eslint": "^8.1.2",
-    "babel-preset-env": "*",
+    "babel-cli": "*",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "*",
-    "eslint": "^4.14.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
-    "readline-sync": "^1.4.7"
+    "lodash": "^4.17.5",
+    "readline-sync": "^1.4.9"
   }
 }
